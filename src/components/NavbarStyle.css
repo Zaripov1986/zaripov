@@ -1,0 +1,15 @@
+
+.NavbarContainer{
+    background: #FFF;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.NavbarContainer div{
+ flex: 1;
+ padding: 10%;
+}
+.Mune-containers{
+    display: flex;
+    justify-content: space-between;
+}
