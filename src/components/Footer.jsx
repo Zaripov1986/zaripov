@@ -8,7 +8,7 @@ import image96 from "../assests/image96.svg"
 const FooterComponent = () => {
   return (
     <div className='Container'>
-      <div style={{padding:"200px",display:"flex"}}>
+      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
       <div className='footerconleft'>
         <h1>Beauty Care</h1>
         <p>Do eiusmod tempor incididunt ut labore et <br />

@@ -16,11 +16,13 @@ import image101 from "../assests/image101.svg"
 import african from "../assests/african.svg"
 import image87 from "../assests/image87.svg"
 import livingroom from "../assests/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.svg"
+import elipse8 from "../assests/Ellipse8.svg"
+import elipse9 from "../assests/Ellipse9.svg"
 
 
 const HomeComponent = () => {
   return (
-    <div>
+    <div >
       <NavbarComponent/>
        <div className='bgwrapper'>
         <div className='bgcont'>
@@ -104,12 +106,24 @@ const HomeComponent = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className='contbg8'>
-        <div>
-          <img src={african} alt="african-img" style={{width:"612.752px"}}/>
-         
+        <div className='contbg82' style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
+          <img src={african} alt="african-img" style={{width:"612.752px",zIndex:"-1"}}/>
+           <img src={elipse8} alt="elipse8" style={{marginTop:"-70px",width:"140px",height:"140px",zIndex:"-1"}}/>
+           <img src={elipse9} alt="elipse9" style={{width:"90px",height:"90px",marginTop:"-115px",zIndex:"-1"}} />
+           <h1>1.</h1>
           </div>
-        <div><img src={image87} alt="image87-img" style={{width:"612.752px"}}/></div>
-        <div><img src={livingroom} alt="livingroom-img" style={{width:"612.752px"}}/></div>
+        <div className='contbg82' style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
+          <img src={image87} alt="image87-img" style={{width:"612.752px",zIndex:"-1"}}/>
+          <img src={elipse8} alt="elipse8" style={{marginTop:"-70px",width:"140px",height:"140px",zIndex:"-1"}}/>
+           <img src={elipse9} alt="elipse9" style={{width:"90px",height:"90px",marginTop:"-115px",zIndex:"-1"}} />
+           <h1>2.</h1>
+          </div>
+        <div className='contbg82' style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
+          <img src={livingroom} alt="livingroom-img" style={{width:"612.752px",zIndex:"-1"}}/>
+          <img src={elipse8} alt="elipse8" style={{marginTop:"-70px",width:"140px",height:"140px",zIndex:"-1"}}/>
+           <img src={elipse9} alt="elipse9" style={{width:"90px",height:"90px",marginTop:"-115px",zIndex:"-1"}} />
+           <h1>3.</h1>
+          </div>
         </div>
         <div className='contbg9'>
           <div>
